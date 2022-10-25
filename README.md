@@ -40,3 +40,9 @@ Copie o endereço de ip exibido para o container do **zabbix-agent** e cole no s
 ## Adicionando um novo Host no **Zabbix Frontend**
 
 [in progress]
+
+## Referências :mag_right:
+
+* [Como instalar e configurar o Zabbix para monitorar servidores remotos com segurança no Ubuntu 20.04](https://www.digitalocean.com/community/tutorials/how-to-install-and-configure-zabbix-to-securely-monitor-remote-servers-on-ubuntu-20-04-pt)
+* [Instalação do Zabbix com Docker-Compose](https://www.youtube.com/watch?v=0c2k2hZMeCE)
+* [stack-zabbix-grafana-prometheus](https://github.com/joaovitorit/stack-zabbix-grafana-prometheus)
