@@ -21,6 +21,8 @@ docker compose up -d
 
 No navegador, insira o ip da sua máquina, seguido da porta onde está rodando o zabbix-frontend - vai ser algo parecido com `172.0.0.1:8010` - (o padrão é a 8010, mas você pode alterar isso no **docker-compose.yml**). Para verificar o ip da máquina, você pode verificar atráves do comando `ip addr`.
 
+<img src="./images/zabbix-login.jpg" alt="Tela de Login do Zabbix">
+
 Para acessar o zabbix-frontend, entre com o usuário **Admin** e senha **zabbix**.
 
 Assim que logar no sistema, uma mensagem de erro vai aparecer para o **Zabbix server**, para corrigir basta ir nas configurações do mesmo e alterar o endereço de ip do agent. Para saber qual o ip correto, insira o seguinte comando no terminal:
