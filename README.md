@@ -19,7 +19,7 @@ docker compose up -d
 
 ## Configuração do Zabbix Frontend
 
-No navegador, insira o ip da sua máquina, seguido da porta onde está rodando o zabbix-frontend - vai ser algo parecido com `172.0.0.1:8010` - (o padrão é a 8010, mas você pode alterar isso no **docker-compose.yml**). Para verificar o ip da máquina, você pode verificar atráves do comando `ip addr`.
+No navegador, insira o ip da sua máquina, seguido da porta onde está rodando o zabbix-frontend - vai ser algo parecido com `172.0.0.1:8010` - (o padrão é a 8010, mas você pode alterar isso no **docker-compose.yml**). Para verificar o ip da máquina, você pode verificar atráves do comando `ip addr show eth0 | grep -oP '(?<=inet\s)\d+(\.\d+){3}'`.
 
 <img src="./images/zabbix-login.jpg" alt="Tela de Login do Zabbix">
 
